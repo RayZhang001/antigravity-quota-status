@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 128 128">
+  <!-- Generator: Adobe Illustrator 30.7.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 114)  -->
+  <defs>
+    <style>
+      .st0, .st1, .st2, .st3 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+        isolation: isolate;
+      }
+
+      .st0, .st2, .st4 {
+        fill: #e8e8e8;
+      }
+
+      .st0, .st3 {
+        font-size: 12.84px;
+      }
+
+      .st5 {
+        fill: #777;
+      }
+
+      .st6 {
+        fill: #4999ce;
+      }
+
+      .st1 {
+        fill: #c8c8c8;
+      }
+
+      .st1, .st2 {
+        font-size: 10.7px;
+      }
+
+      .st7 {
+        fill: #3097de;
+      }
+
+      .st8 {
+        fill: #161616;
+        stroke: #4b4b4b;
+        stroke-width: 2px;
+      }
+
+      .st9 {
+        fill: #cfcfcf;
+      }
+
+      .st10 {
+        stroke: #777;
+        stroke-width: 1.4px;
+      }
+
+      .st10, .st11, .st12, .st13 {
+        fill: none;
+      }
+
+      .st3 {
+        fill: #b8b8b8;
+      }
+
+      .st11 {
+        stroke: #666;
+      }
+
+      .st12 {
+        stroke: #303030;
+      }
+
+      .st13 {
+        stroke: #e8e8e8;
+        stroke-width: 1.6px;
+      }
+    </style>
+  </defs>
+  <rect class="st8" x="4" y="4" width="120" height="120" rx="18" ry="18"/>
+  <rect class="st13" x="10" y="11" width="50" height="37.04" rx="9" ry="9"/>
+  <rect class="st10" x="64" y="11" width="54" height="37.04" rx="9" ry="9"/>
+  <line class="st12" x1="12" y1="57.61" x2="116" y2="57.61"/>
+  <text class="st0" transform="translate(10 76.46)"><tspan x="0" y="0">Weekly</tspan></text>
+  <g>
+    <rect class="st4" x="59.34" y="67.37" width="4.23" height="10" rx="1" ry="1"/>
+    <rect class="st4" x="64.99" y="67.37" width="4.23" height="10" rx="1" ry="1"/>
+    <rect class="st4" x="70.64" y="67.37" width="4.23" height="10" rx="1" ry="1"/>
+    <rect class="st4" x="76.28" y="67.37" width="4.23" height="10" rx="1" ry="1"/>
+    <rect class="st9" x="81.93" y="67.37" width="4.23" height="10" rx="1" ry="1"/>
+    <rect class="st11" x="87.57" y="67.37" width="4.23" height="10" rx="1" ry="1"/>
+  </g>
+  <text class="st2" transform="translate(96.87 75.94)"><tspan x="0" y="0">90%</tspan></text>
+  <text class="st3" transform="translate(14.62 103.01)"><tspan x="0" y="0">5 hour</tspan></text>
+  <g>
+    <rect class="st4" x="59.19" y="93.92" width="4.23" height="10" rx="1" ry="1"/>
+    <rect class="st9" x="64.84" y="93.92" width="4.23" height="10" rx="1" ry="1"/>
+    <rect class="st11" x="70.48" y="93.92" width="4.23" height="10" rx="1" ry="1"/>
+    <rect class="st11" x="76.13" y="93.92" width="4.23" height="10" rx="1" ry="1"/>
+    <rect class="st11" x="81.78" y="93.92" width="4.23" height="10" rx="1" ry="1"/>
+    <rect class="st11" x="87.42" y="93.92" width="4.23" height="10" rx="1" ry="1"/>
+  </g>
+  <text class="st1" transform="translate(97.22 102.49)"><tspan x="0" y="0">42%</tspan></text>
+  <line class="st6" x1="91.23" y1="-35.83" x2="91.23" y2="-35.79"/>
+  <path class="st7" d="M3.34-19.1"/>
+  <path class="st4" d="M46.14,30.43c1.1-.03,1.03-1.76.04-1.82-5.61.03-10.22-4.45-10.24-10.09l-.15-.52c-.43-.81-1.74-.4-1.68.51-.01,5.61-4.6,10.13-10.2,10.09-.5,0-.85.49-.84.94.01.49.4.88.9.88,5.63,0,10.16,4.58,10.14,10.2,0,.35.32.69.61.77.59.21,1.15-.18,1.21-.8,0-5.66,4.55-10.19,10.22-10.18Z"/>
+  <g>
+    <rect class="st5" x="90.38" y="17.09" width="1.69" height="24.87" rx=".85" ry=".85"/>
+    <rect class="st5" x="90.38" y="17.09" width="1.69" height="24.87" rx=".85" ry=".85" transform="translate(-2.54 49.57) rotate(-30)"/>
+    <rect class="st5" x="90.38" y="17.09" width="1.69" height="24.87" rx=".85" ry=".85" transform="translate(20.05 93.77) rotate(-60)"/>
+    <rect class="st5" x="90.38" y="17.09" width="1.69" height="24.87" rx=".85" ry=".85" transform="translate(61.71 120.75) rotate(-90)"/>
+    <rect class="st5" x="90.38" y="17.09" width="1.69" height="24.87" rx=".85" ry=".85" transform="translate(111.28 123.29) rotate(-120)"/>
+    <rect class="st5" x="90.38" y="17.09" width="1.69" height="24.87" rx=".85" ry=".85" transform="translate(155.47 100.7) rotate(-150)"/>
+  </g>
+</svg>

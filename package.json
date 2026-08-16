@@ -1,0 +1,119 @@
+{
+  "name": "antigravity-quota-status",
+  "displayName": "Antigravity Quota Status",
+  "description": "See Antigravity weekly and 5-hour model quota directly in the status bar.",
+  "version": "1.0.0",
+  "publisher": "ruizh000",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RayZhang001/antigravity-quota-status.git"
+  },
+  "icon": "assets/icon.png",
+  "homepage": "https://github.com/RayZhang001/antigravity-quota-status#readme",
+  "bugs": {
+    "url": "https://github.com/RayZhang001/antigravity-quota-status/issues"
+  },
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "antigravity",
+    "quota",
+    "usage",
+    "gemini",
+    "claude",
+    "gpt",
+    "status bar",
+    "weekly limit"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "extensionKind": [
+    "ui"
+  ],
+  "capabilities": {
+    "untrustedWorkspaces": {
+      "supported": true
+    }
+  },
+  "main": "./src/extension.js",
+  "files": [
+    "src/**",
+    "assets/**",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "antigravityQuota.refresh",
+        "title": "Refresh Quota",
+        "category": "Antigravity Quota"
+      },
+      {
+        "command": "antigravityQuota.showDetails",
+        "title": "Show Usage Details",
+        "category": "Antigravity Quota"
+      },
+      {
+        "command": "antigravityQuota.openModelsTab",
+        "title": "Open Models Settings",
+        "category": "Antigravity Quota"
+      },
+      {
+        "command": "antigravityQuota.showModelBreakdown",
+        "title": "Show Model Breakdown",
+        "category": "Antigravity Quota"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "antigravityQuota.openModelsTab",
+        "key": "alt+q",
+        "mac": "opt+q"
+      }
+    ],
+    "configuration": {
+      "title": "Antigravity Quota Status",
+      "properties": {
+        "antigravityQuota.refreshIntervalSeconds": {
+          "type": "number",
+          "default": 120,
+          "minimum": 30,
+          "maximum": 3600,
+          "description": "How often to refresh quota in the background, in seconds."
+        },
+        "antigravityQuota.statusBarDisplay": {
+          "type": "string",
+          "default": "both",
+          "enum": [
+            "both",
+            "weekly",
+            "fiveHour"
+          ],
+          "enumDescriptions": [
+            "Show weekly and 5-hour remaining quota.",
+            "Show weekly remaining quota only.",
+            "Show 5-hour remaining quota only."
+          ],
+          "description": "Which quota windows to show in the status bar."
+        },
+        "antigravityQuota.showResetCountdown": {
+          "type": "boolean",
+          "default": true,
+          "description": "Show the 5-hour reset countdown in the status bar."
+        }
+      }
+    }
+  },
+  "scripts": {
+    "check": "node --check src/extension.js && node --check src/antigravityConnection.js && node --check src/quotaClient.js && node --check src/presentation.js",
+    "test": "node --test"
+  }
+}
